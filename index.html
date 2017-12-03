@@ -7,32 +7,113 @@
 		<title>Jean Quirino</title>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
 		<link rel= "stylesheet" href= "main.css">
+
 	</head>
 
 	<body>
-		<nav class= "navbar navbar-fixed-top navbar-dark bg-dark">
+		<nav class= "navbar nvbar-expand-lg navbar-fixed-top navbar-dark bg-dark">
   			<div class="container-fluid">
     			<div class="navbar-header">
-      				<a class="navbar-brand" href="#home">
+      				<a class="navbar-brand" href="#">
       					Jean Quirino
       				</a>
     			</div>
 
 			    <ul class= "navbar-nav navbar-right">
-					<li class= "nav-item"><a href= "#about-me">About Me</a></li>
+                    <li class= "nav-item"><a href= "#about">About</a></li>
 					<li class= "nav-item"><a href= "#projects">Projects</a></li>
-					<li class= "nav-item"><a href= "#experiences">Experiences</a></li>
-					<li class= "nav-item"><a href= "#contact-me">Contact Me</a></li>
-					<li class= "nav-item"><a href= "Documents/resume.pdf">Resume</a></li>
+                    <li class= "nav-item"><a href= "#contact">Contact</a></li>
+					<li class= "nav-item"><a href= "Documents/resume.pdf" target="_blank">Resume</a></li>
 			    </ul>
 		  	</div>
 		</nav>
-	
-<!--Eventually add a local copy of bootstrap: https://stackoverflow.com/questions/26192897/should-i-use-bootstrap-from-cdn-or-make-a-copy-on-my-server-->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+        <section id= "welcome" class="welcome">
+            <div class= "overlay">
+                <div class= "container">
+                    <h1 class= "name">Jean Quirino</h1>
+                    <h2 class= "desc">Aspiring Designer and Developer</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id= "about" class= "about">
+
+            <div class= "container">
+                <div class= "title">
+                    <h2>About Me</h2>
+                </div>
+
+                <p >
+                    I am a 2A Mechatronics Engineering student at the University of Waterloo. I'm a huge adrenaline junkie and a self-proclaimed gastronomer of takoyaki. I'm passionate about programming in C++ and Python, as well as UX design. I'm on a mission to find a Canadian $2 bill, so let me know if you have one!
+                </p>
+            </div>
+
+        </section>
+
+        <section id= "projects" class= "projects">
+
+            <div class= "container">
+                <div class= "title">
+                    <h2>My Projects</h2>
+                </div>
+
+                <div class="content">
+                    <h3>This website</h3>
+                    <p>
+                        Insert description
+                    </p>
+                </div>
+
+                <div class="content">
+                    <h3>go-fish</h3>
+                    <p>
+                        Insert description 
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id= "contact" class= "contact">
+            <div class= "container">
+                <div class= "title">
+                    <h2>Contact Me</h2>
+                </div>
+
+                <ul class= "social_media">
+                    <li>
+                        <a href="https://github.com/jeanquirino" target= "_blank">
+                            <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/jeanq/" target= "_blank">
+                            <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i>                        
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:jeantquirino@gmail.com" target= "_blank">
+                            <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+                
+            </div>
+
+
+        </section>
+
+        <footer class= "footer">
+            <div class= "container">
+                <p class= "copyright"> © Copyright 2017 Jean Quirino. All rights reserved.</p>
+            </div>
+        </footer>
+
   </body>
 </html>

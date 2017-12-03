@@ -1,12 +1,23 @@
+.title{
+    text-align: center;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
 .navbar-brand {
     font-family: 'Roboto Mono', monospace;
-    font-weight: bold;
     font-size: 20px;
+    font-weight: bold;
+
 }
 
 .navbar-nav {
     flex-direction: row;
-
 }
 
 .nav-item a {
@@ -19,3 +30,127 @@
     background-color: rgba(205, 205, 205, 0.5);
     text-decoration: none;
 }
+
+div {
+    display: block;
+}
+
+section { 
+    height: 100vh;
+}
+
+
+.welcome{
+    background-origin: initial; 
+    background-color: initial;
+    background-attachment: scroll;
+    background-image: url('Images/jesus-kiteque-224069.jpg');
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+body{
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+h1 {
+font-family: 'Roboto Mono', monospace;
+font-weight:normal;
+font-size: 55px;
+text-align: center;
+color: #343A40;
+margin: 0;
+padding-top: 100px;
+}
+
+h2 {
+font-family: 'Roboto Mono', monospace;
+font-weight: normal;
+font-size: 40px;
+text-align: center;
+color: #343A40;
+margin: 0;
+padding-top: 100px;
+}
+
+h3 {
+font-family: 'Roboto Mono', monospace;
+padding-top: 20px;
+position: relative;
+}
+
+p {
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.desc{
+    padding-top: 0;
+}
+
+.content{ 
+    margin: 0 auto; 
+    width: 960px; 
+}
+
+.about{
+    text-align: center;
+}
+
+.projects{
+    background-color: #DADFE5;
+}
+
+.social_media{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.social_media li {
+    list-style-type: none;
+    display: inline;
+}
+
+.social_media a {
+    color: black;
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+.fa:hover {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.fa {
+    font-size: 50px;
+}
+
+.contact{
+    height: 90vh;
+}
+
+.footer{
+    background-color: #343A40;
+    bottom: 0;
+    height: 50px;
+    text-align: center;  
+    width: 100%;
+}
+
+.copyright{
+    color: white;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    font-size: 15px;
+    margin-top: 0;
+}
+
